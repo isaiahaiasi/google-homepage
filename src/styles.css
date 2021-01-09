@@ -44,3 +44,49 @@ footer {
     color: #70757a;
     padding-left: 27px;
 }
+
+main {
+    margin-top:168px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+#main-logo {
+    width:272px;
+    align-self: center;
+}
+
+#searchbar-container {
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+
+
+    margin:30px;
+    width:450px;
+    align-self:center;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10px;
+    opacity:.75;
+}
+.search-icon {
+    height:20px;
+    width: 20px;
+    margin: 0 5px 3px 0;
+}
+
+/* this is a little too big for some reason...*/
+#search-icon-standard {
+    color:#9aa0a6;
+    opacity:.50;
+    padding-left:4px;
+}
+#search-by-voice-icon {
+    opacity: 1;
+    padding-right:7px;
+}
+
+#search-button-container {
+    align-self:center;
+}

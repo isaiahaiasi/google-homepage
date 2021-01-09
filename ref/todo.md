@@ -11,3 +11,4 @@
 - Media query for when width < 811px: stack footer elements
 - Center elements have a preferred distance from bottom and min distance from top
 - Media query for when screen height < about 537px: ANIMATE logo shrinking
+- Dropshadow on searchbar hover
