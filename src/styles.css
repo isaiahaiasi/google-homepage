@@ -9,10 +9,22 @@ header {
     width: auto;
     display: flex;
     justify-content: space-between;
+    font-size:13px;
+}
+
+#header-left {
+    margin:7px 0 0 10px;
+}
+
+/* Source is pretty weird on this, so just saying eff it */
+#header-right {
+    margin:7px 15px 0;
 }
 
 .header-link {
     color: #000;
+    opacity:.75;
+    padding-left:15px;
 }
 
 footer {
@@ -23,6 +35,8 @@ footer {
 
     display:flex;
     justify-content: space-between;
+
+    padding: 8px 8px 8px 8px;
 
     background-color: #f2f2f2;
     border-top: 1px solid #dadce0;
