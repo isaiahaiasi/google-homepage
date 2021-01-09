@@ -47,6 +47,7 @@ footer {
 
 main {
     margin-top:168px;
+    padding:0 28px 0 28px;
     display:flex;
     justify-content:center;
     flex-direction:column;
@@ -62,7 +63,8 @@ main {
 
 
     margin:30px;
-    width:450px;
+    width:470px;
+    max-width:100%;
     align-self:center;
     display:flex;
     flex-direction:row;
@@ -95,7 +97,7 @@ main {
 /* this is a little too big for some reason...*/
 #search-icon-standard {
     color:#9aa0a6;
-    opacity:.50;
+    opacity:.40;
     padding-left:4px;
     transform: scale(0.85);
 }
