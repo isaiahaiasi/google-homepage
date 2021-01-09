@@ -1,10 +1,11 @@
 ## TO-DO:
 - Proper footer elements
-- Embed google logo
-- Searchbar
-- Searchbar icons
-- "Google Search" & "I'm Feeling Lucky" buttons
-- Position logo/searchbar/buttons
+- ~~Embed google logo~~
+- ~~Searchbar~~
+- ~~Searchbar icons~~
+- ~~"Google Search" & "I'm Feeling Lucky" buttons~~
+- ~~Position logo/searchbar/buttons~~
+- Refine buttons
 - Apps icon and user icon to header
 - Footer logo for carbon neutrality
 - Searchbar container should have a default size, plus margin so it shrinks when the window gets < about 540px
