@@ -8,6 +8,7 @@ header {
     width: auto;
     display: flex;
     justify-content: space-between;
+    align-content:center;
     font-size:13px;
     padding-top: 16px;
 }
@@ -18,7 +19,9 @@ header {
 
 /* Source is pretty weird on this, so just saying eff it */
 #header-right {
-    margin:7px 15px 0;
+    margin:0px 15px 0;
+    display: flex;
+    align-items:center;
 }
 
 a {
@@ -28,7 +31,18 @@ a {
 .header-link {
     color: #000;
     opacity:.75;
-    padding-left:15px;
+    margin-left:15px;
+}
+
+#apps-button {
+    height:30px;
+    width:30px;
+    background-image:url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size:528px 68px;
+    background-position: -132px -38px;
+    background-color:rgb(0,0,0,0);
+    border:none;
+    opacity:.5;
 }
 
 footer {
