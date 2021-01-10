@@ -1,7 +1,7 @@
 body {
     color: #000;
     font-family:Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin:0;
 }
 /* It looks like google actually uses display:inline-block */
 header {
@@ -21,15 +21,18 @@ header {
     margin:7px 15px 0;
 }
 
+a {
+    text-decoration:none;
+}
+
 .header-link {
     color: #000;
     opacity:.75;
     padding-left:15px;
-    text-decoration:none;
 }
 
 footer {
-    width: 100%;
+    width:100%;
     position:fixed;
     left:0;
     bottom:0;
@@ -37,19 +40,38 @@ footer {
     display:flex;
     justify-content: space-between;
 
-    padding: 8px 8px 8px 8px;
+    padding: 8px 0px 8px 0px;
 
     background-color: #f2f2f2;
     border-top: 1px solid #dadce0;
 }
 
+.footer-content {
+    margin:3px;
+}
+
 .footer-link {
     color: #70757a;
-    padding-left: 27px;
+    padding-left: 25px;
+    font-size:14px;
+}
+
+#footer-right {
+    min-width:30%;
+    margin-right:30px;
+    text-align:right;
+}
+
+#carbon-neutral-link {
+    padding-left:5px;
+}
+
+#carbon-neutral-icon {
+    height:14px;
 }
 
 main {
-    margin-top:168px;
+    margin-top:160px;
     padding:0 28px 0 28px;
     display:flex;
     justify-content:center;
@@ -65,7 +87,7 @@ main {
     border-radius: 25px;
 
 
-    margin:30px;
+    margin: 30px;
     width:470px;
     max-width:100%;
     min-width: 400px;
@@ -109,7 +131,6 @@ main {
 #search-by-voice-icon {
     opacity: 1;
     margin-right:10px;
-    
 }
 
 #search-button-container {
@@ -120,7 +141,8 @@ main {
     background-color:#f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
-    padding:7px;
+
+    padding:10px;
     color:#3c4043;
     font-size:14px;
 }
@@ -128,5 +150,4 @@ main {
 .search-button:hover {
     box-shadow:0 1px 1px rgb(0,0,0,.1);
     border: 1px solid #dadce0;
-    ;
 }
