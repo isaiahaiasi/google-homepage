@@ -135,8 +135,8 @@ main {
     opacity:.87;
 }
 
-#search-textfield:selection {
-    border:hidden;
+#searchbar-container:hover {
+    box-shadow: 0 0 8px rgb(0,0,0,.2);
 }
 
 .search-icon {
@@ -191,3 +191,4 @@ main {
         order:1;
     }
 }
+
