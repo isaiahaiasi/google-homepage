@@ -11,4 +11,4 @@
 - ~~Apps icon and user icon to header~~
 - ~~Media query for when width < 811px: stack footer elements~~
 - ~~Dropshadow on searchbar select/hover~~ (doesn't seem to be possible if the selected is a child of the influenced object, so currently only on hover)
-- Media query for when screen height < about 537px: ANIMATE logo shrinking (...aand now I can't replicate...)
+- ~~Media query for when screen height < about 537px: ANIMATE logo shrinking~~
