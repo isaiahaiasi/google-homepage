@@ -45,6 +45,18 @@ a {
     opacity:.5;
 }
 
+#sign-in-button {
+    margin-right:12px;
+    padding:6px 11px 6px 11px;
+    background-color:#4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+
+    font-weight: bold;
+    color:white;
+    opacity:1;
+}
+
 footer {
     width:100%;
     position:fixed;
