@@ -1,15 +1,15 @@
 ## TO-DO:
-- Proper footer elements
+- ~~Proper footer elements~~
 - ~~Embed google logo~~
 - ~~Searchbar~~
 - ~~Searchbar icons~~
 - ~~"Google Search" & "I'm Feeling Lucky" buttons~~
 - ~~Position logo/searchbar/buttons~~
-- Refine buttons
+- ~~Refine buttons~~
+- ~~Footer logo for carbon neutrality~~
+- ~~Searchbar container should have a default size, plus margin so it shrinks when the window gets < about 540px~~
 - Apps icon and user icon to header
-- Footer logo for carbon neutrality
-- Searchbar container should have a default size, plus margin so it shrinks when the window gets < about 540px
 - Media query for when width < 811px: stack footer elements
-- Center elements have a preferred distance from bottom and min distance from top
 - Media query for when screen height < about 537px: ANIMATE logo shrinking
-- Dropshadow on searchbar hover
+- Dropshadow on searchbar select/hover
+- Animation to smaller logo on small width (although for some reason now it's not happening...)
