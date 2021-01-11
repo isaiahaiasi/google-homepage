@@ -129,7 +129,8 @@ main {
     transition:margin-top .7s;
 }
 
-#searchbar-container:hover {
+#searchbar-container:hover,
+#searchbar-container:focus-within {
     box-shadow: 0 0 8px rgb(0,0,0,.2);
 }
 
